@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice App – Koperasi AZ ZIYADAH</title>
+    <style>
+        /* Mengatur halaman agar penuh tanpa scrollbar ganda */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #f4f6f9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        /* Container untuk membungkus iframe secara responsif */
+        .app-container {
+            width: 100%;
+            height: 100%;
+            display: block;
+            border: none;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        <iframe 
+            src="https://script.google.com/macros/s/AKfycbxQvzI-Di3YXu-3EgS8vyw7kh49GEvfGAxXNdBtpOVTRBznjTs4TkohW8Eyg7KNVTW5iA/exec" 
+            allow="geolocation; microphone; camera; midi; vr;加速度计; gyroscope; payment; encrypted-media; clipboard-write; clipboard-read"
+            sandbox="allow-top-navigation allow-scripts allow-same-origin allow-forms allow-popups allow-modals"
+            id="app-frame">
+        </iframe>
+    </div>
+
+</body>
+</html>
